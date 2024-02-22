@@ -1,6 +1,6 @@
 import json
 
-from ftfy import fix_encoding
+from ftfy import fix_encoding     # pip install ftfy
 
 def json_file_print(url):
     with open(url, 'r') as f:
